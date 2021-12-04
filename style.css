@@ -141,13 +141,21 @@ label{
     }
 /*----media query for less than 600 screen size----*/
 @media only screen and (max-width: 600px){
+
+/*----media query for less than 600 screen size----*/
+@media only screen and (max-width: 6000px){
+    .container{
+        width: auto;
+    }
  .form{
-     width: 75%;
+     width: fit-content;
      text-align: center;
-     flex-basis: 100%;
-     text-size-adjust: 80px;
+     /* flex-basis: 100%;
+     text-size-adjust: 80px; */
  }
  input{
+    width: fit-content;
+    text-align: center;
     position:relative;
     margin: 7px 5px;
     padding: 5px 1px; 
